@@ -12,4 +12,4 @@ sql = """SELECT * FROM iris WHERE Species = '{0}' AND "Petal Width" >= {1}""".fo
 versicolor = pd.read_sql(sql, engine)
 versicolor
 print("条件指定:種(Species)　versicolor, 花弁の長さ(Petal Width)1.5以上")
-print(versicolor) 
+print(versicolor)
